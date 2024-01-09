@@ -1,0 +1,168 @@
+.container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    border-radius: 30px;
+    z-index: 1;
+    margin-top: -150px;
+    border: 1px solid gainsboro;
+    height: 700px;
+    position: relative;
+    align-items: center;
+    
+}
+
+.containerFather{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.son1{
+    display: flex;
+    justify-content: center;
+    color: rgb(202, 131, 0);
+}
+
+.tech {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+  
+  .techItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px gainsboro;
+    backdrop-filter: blur(10px);
+    padding: 8px;
+    margin: 45px 20px;
+    
+  }
+  
+  .techItem img.redux {
+    max-width: 180px;
+    height: auto;
+  }
+  .techItem:hover {
+    animation-duration: 1s;
+    animation-name: swing;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+  }
+  
+  @keyframes swing {
+      15% {
+    transform: translateX(5px);
+  }
+  30% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  65% {
+    transform: translateX(-3px);
+  }
+  80% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+  }
+  .techItem img.react {
+    max-width: 250px;
+    height: auto;
+    margin-top: -44px;
+  }
+  .techItem img.css {
+    max-width: 90px;
+    height: auto;
+    margin-top: 10px;
+  }
+  .techItem img.html {
+    max-width: 130px;
+    height: auto;
+    margin-top: 12px;
+    
+  }
+  .techItem img.js {
+    max-width: 130px;
+    height: auto;
+    margin-top: 12px;
+    
+  }
+  .techItem img.node {
+    max-width: 130px;
+    height: auto;
+    margin-top: 12px;
+    
+  }
+  
+  
+  .techItem img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 414px){
+    .container{
+      width: 340px;
+    }
+    .son1 h1{
+      font-size: 25px;
+    }
+    .techItem{
+      width: 60px;
+      height: 60px;
+    }
+    .techItem h2{
+      font-size: 15px;
+      margin-top: -8px;
+    }
+    .techItem img.react {
+      max-width: 100px;
+      margin-top: -15px;
+    }
+    .techItem img.redux {
+      max-width: 85px;
+      height: auto;
+    }
+    .techItem img.css {
+      max-width: 45px;
+      margin-top: 3px;
+    }
+    .techItem img.html {
+      max-width: 60px;
+      margin-top: 4px;
+      
+    }
+    .techItem img.js {
+      max-width: 65px;
+      margin-top: 5px;
+      
+    }
+    .techItem img.node {
+      max-width: 65px;
+      margin-top: 8px;
+      
+    }
+  
+    .techItem img {
+      max-width: 100%;
+    }
+  }
+
+  @media (max-width: 379px){
+    
+
+  }

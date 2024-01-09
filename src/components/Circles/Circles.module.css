@@ -1,0 +1,8 @@
+.container{
+    position: relative;
+    width: 95%; 
+    height: 100%;
+    z-index: 1;
+    margin-bottom: -330px;
+    margin-top: -110px;
+}

@@ -1,0 +1,267 @@
+.container{
+    background-color: rgb(202, 131, 0);
+    z-index: 0;
+    height: 500px;
+    margin-top: -100px;
+    padding-bottom: 200px;
+    position: relative;
+}
+.containerSon{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-basis: 200;
+}
+
+.son{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    color: white;
+}
+.son h1{
+    margin-top: -20px;
+}
+
+.son1{
+    background-image: url("../../assets/GrosgarTablet2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 20px;
+    
+}
+
+.son2{
+    background-image: url("../../assets/workify.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 20px;
+    
+}
+
+.son2 a{
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid rgb(202, 131, 0);
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(202, 131, 0);
+    display: none;
+   
+}
+
+.son2:hover a {
+    display: block;
+    width: 100px;
+    margin-left: 10px;
+    text-align: center;
+    
+  }
+.son2:hover a:hover{
+    background-color: rgb(202, 131, 0);
+    color: white;
+}
+.son2 p{
+    display: none;
+}
+.son2:hover p{
+    display: block;
+}
+
+.son3{
+    background-image: url("../../assets/example1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 20px;
+    
+}
+
+.son3 a{
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid rgb(202, 131, 0);
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(202, 131, 0);
+    display: none;
+   
+}
+
+.son3:hover a {
+    display: block;
+    width: 100px;
+    margin-left: 10px;
+    text-align: center;
+    
+  }
+.son3:hover a:hover{
+    background-color: rgb(202, 131, 0);
+    color: white;
+}
+.son3 p{
+    display: none;
+}
+.son3:hover p{
+    display: block;
+}
+
+.son4{
+    background-image: url("../../assets/pokedex.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 20px;
+    
+}
+
+.son4 a{
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid rgb(202, 131, 0);
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(202, 131, 0);
+    display: none;
+   
+}
+
+.son4:hover a {
+    display: block;
+    width: 100px;
+    margin-left: 10px;
+    text-align: center;
+    
+  }
+.son4:hover a:hover{
+    background-color: rgb(202, 131, 0);
+    color: white;
+}
+.son4 p{
+    display: none;
+}
+.son4:hover p{
+    display: block;
+}
+.sonp{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    
+}
+.sonp p{
+    margin-top: 50px;
+    color: rgb(202, 131, 0) ;
+    font-size: 22px;
+    margin-left: 30px;
+}
+
+.sonp:hover{
+    color: white;
+    background-color: rgb(255, 255, 255, 0.9);
+    border-radius: 20px;
+    animation-duration: 1s;
+    animation-name: fadeIn;
+
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+
+.son1 a{
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid rgb(202, 131, 0);
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(202, 131, 0);
+    display: none;
+   
+}
+
+.son1:hover a {
+    display: block;
+    width: 100px;
+    margin-left: 10px;
+    text-align: center;
+    
+  }
+.son1:hover a:hover{
+    background-color: rgb(202, 131, 0);
+    color: white;
+}
+.son1 p{
+    display: none;
+}
+.son1:hover p{
+    display: block;
+}
+
+@media (max-width: 414px){
+    .container{
+        height: 100%;
+    }
+    .son h1{
+        font-size: 28px;
+    }
+
+    .containerSon{
+        flex-wrap: wrap;
+    }
+    .son1{
+        width: 250px;
+        height: 125px;
+    }
+
+    .son2{
+        width: 250px;
+        height: 125px;
+    }
+
+    .son3{
+        width: 250px;
+        height: 125px;
+    }
+    
+    .son4{
+        width: 250px;
+        height: 125px;
+    }
+    
+
+    .sonp:hover{
+        width: 250px;
+        height: 125px;
+    }
+    .sonp p{
+        font-size: 15px;
+        margin-top: 17px;
+    }
+    .sonp a{
+        padding: 2px;
+        font-size: 13px;
+    }
+}
