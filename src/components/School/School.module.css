@@ -1,7 +1,7 @@
 .container{
     display: flex;
     justify-content: center;
-    background-color: rgb(202, 131, 0);
+    background-color: rgb(21, 21, 21);
     flex-direction: column;
     z-index: 0;
     padding-bottom: 100px;
@@ -18,18 +18,78 @@
     margin: 0 auto;
 }
 
+.son h2{
+    position: absolute;
+    left: 30%;
+    top: -45%;
+    color: rgb(255, 255, 255, 0.2);
+    font-size: 60px;
+}
+
+.son h1{
+    font-size: 35px;
+}
+
+.title{
+    position: relative;
+}
+
+.target{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.arrow{
+    color: rgb(202, 131, 0);
+    position: absolute;
+    left: 60%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10em;
+}
+
+.info h3{
+    font-size: 1.3em;
+    height: 5px;
+}
+
+.info h4{
+    color: rgb(202, 131, 0);
+    font-size: 1.5em;
+    height: 5px;
+
+
+}
+
+.imgProfile{
+    width: 20em;
+    margin-right: 1em;
+}
+
 .baby p{
-    font-size: 20px;
-    text-align: center;
+    text-align: justify;
     line-height: 1.5;
     padding-top: 15px;
+   
 }
 .baby{
     padding-left: 30px;
     padding-right: 30px;
-    max-width: 800px;
+    max-width: 900px;
+    display: flex;
+    margin-top: 5em;
 
 }
+
+
+
 @media (max-width: 414px){
 .baby h1{
     font-size: 25px;    

@@ -11,7 +11,7 @@ import { Navigation } from './components/Navigation/Navigation';
 function App() {
   return (
     <div className="App">
-      <Navigation/>
+      {/* <Navigation/> */}
        <Home id = "home"/>
        <Cpu/>
        <School id = "school"/>

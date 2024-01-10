@@ -1,42 +1,42 @@
 
 import * as React from 'react';
 import style from "../Home/Home.module.css";
-import Joaquin from "../../assets/Joaquis.png";
 import 'animate.css';
-import link from "../../assets/link.png";
-import git from "../../assets/git.png";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 export function Home({id}){
     return(
     <section id = {id} className={style.father}>
-        <div className={style.container}>
         
-            <div className={style.image}>
-            
-                <img className='animate__animated animate__fadeIn animate_slow' src={Joaquin} alt='Joaquin'/>
-            
+        
+
+        <main className={style.container2}>
+            <article className={style.txt} >
+                
+                <div className="animate__animated animate__backInRight animate__slow">
+                    <h2>¡Hola!</h2>
+                     <h1>Soy Joaquin Guerrero</h1>
                 </div>
-        </div>
-        
+                
+                <p className="animate__animated animate__backInRight animate__slow"> Soy un apasionado Desarrollador Web Full Stack e Ingeniero en Sistemas, comprometido con la excelencia en la creación de soluciones tecnológicas eficientes y elegantes</p>
 
-        <div className={style.container2}>
-            <div className={style.txt} >
-                <h3 className="animate__animated animate__backInLeft animate__slow">¡Hola!</h3>
-                <h1 className="animate__animated animate__backInRight animate__slow">Soy Joaquin Guerrero</h1>
-                <p className="animate__animated animate__backInLeft animate__slow" >Ingeniero en Sistemas Computacionales </p>
-                <p className="animate__animated animate__backInRight animate__slow"> & Desarrollador Web Full Stack</p>
-            </div>
-            
-        </div>
-        <div className={style.container3}>
-                 <a href = "https://www.linkedin.com/in/joaquin-guerrero-728826260/">
-                <img className = {style.linked} src = {link} alt = "LinkedIn"/>
+                <footer className={style.foot}>
+                <a href="https://www.linkedin.com/in/joaquin-guerrero-728826260/" className={style.iconLink} target="_blank" rel="noopener noreferrer">
+                    <LinkedInIcon className={style.icon} />
                 </a>
-                <a href = "https://github.com/Joaquingro">
-                <img className={style.git} src = {git} alt = "Github"/>
-                 </a>
-
-            </div>
+                <a href="https://github.com/Joaquingro" className={style.iconLink} target="_blank" rel="noopener noreferrer">
+                    <GitHubIcon className={style.icon} />
+                </a>
+                <a href="https://wa.me/5549511434" className={style.iconLink} target="_blank" rel="noopener noreferrer">
+                    <WhatsAppIcon className={style.icon} />
+                </a>
+                </footer>
+            </article>
+            
+        </main>
+        
     </section>
     );
 } 

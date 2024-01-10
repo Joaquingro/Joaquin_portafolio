@@ -28,7 +28,7 @@ export function Circles () {
             width: '50px',
             height: '50px',
             borderRadius: '50%',
-            backgroundColor: 'orange',
+            backgroundColor: 'white',
             ...props,
           }}
         />
