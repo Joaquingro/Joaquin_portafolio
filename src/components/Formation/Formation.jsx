@@ -7,15 +7,34 @@ import js from "../../assets/JS.png";
 import post from "../../assets/Post.png";
 import express from "../../assets/express.png";
 import 'animate.css';
-
+import LinearWithValueLabel, { LinearProgressWithLabel } from '../Formation/barProgress';
 
 export function Formation() {
     return (
-        <div className={style.containerFather}>
-    <div className={style.container}>
+    <main className={style.containerFather1}>
+    <header className={style.title}>
+            <h2>SKILLS Y TECNOLOGÍAS</h2>
+            <h1>Skills y Tecnologías</h1>
+    </header>
+    <section className={style.containerFather}>
+    
+ 
+    <section className={style.container}>
         <div className={style.son}>
             <div className={style.son1}>
-                <h1>Tecnologías que utilizo:</h1>
+                <h1>Skills</h1>
+            </div>
+        
+        <LinearWithValueLabel />
+        
+        </div>
+       
+    </section>
+
+    <section className={style.container}>
+        <div className={style.son}>
+            <div className={style.son1}>
+                <h1>Tecnologías</h1>
             </div>
         <div className={style.tech}>
             <div className = {style.techItem}>
@@ -50,7 +69,10 @@ export function Formation() {
         
         </div>
        
-    </div>
-    </div>
+    </section>
+
+
+    </section>
+    </main>
     );
 }

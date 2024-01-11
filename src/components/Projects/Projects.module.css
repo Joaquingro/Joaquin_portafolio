@@ -1,10 +1,6 @@
 .container{
-    background-color: rgb(202, 131, 0);
-    z-index: 0;
-    height: 500px;
-    margin-top: -100px;
-    padding-bottom: 200px;
-    position: relative;
+    background-color: rgb(21, 21, 21);
+    height: 50em;
 }
 .containerSon{
     display: flex;
@@ -12,17 +8,36 @@
     flex-wrap: wrap;
     flex-grow: 0;
     flex-basis: 200;
+    margin-top: 9em;
 }
 
-.son{
-    display: flex;
-    justify-content: center;
-    padding-top: 150px;
+.title{
+    position: relative;
+    width: 63em;
+    text-align: center;
+  }
+  
+  .title h1{
+    border-bottom: 1px solid rgb(202, 131, 0);
+    
+  }
+  
+  .title h2{
+    position: absolute;
+    left: 20%;
+    top: -55%;
+    color: rgb(255, 255, 255, 0.2);
+    font-size: 60px;
+  
+  }
+  
+  .title h1{
+    font-size: 35px;
     color: white;
-}
-.son h1{
-    margin-top: -20px;
-}
+  }
+  
+
+
 
 .son1{
     background-image: url("../../assets/GrosgarTablet2.jpg");

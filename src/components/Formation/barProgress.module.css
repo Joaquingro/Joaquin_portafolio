@@ -1,0 +1,9 @@
+.container{
+    width: 100%;
+    padding: 40px;
+    margin-top: -5em;
+}
+
+.container p{
+    color: white;
+}
