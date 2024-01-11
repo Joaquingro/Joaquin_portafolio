@@ -1,6 +1,9 @@
 .container{
     background-color: rgb(21, 21, 21);
     height: 50em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .containerSon{
     display: flex;
@@ -9,12 +12,14 @@
     flex-grow: 0;
     flex-basis: 200;
     margin-top: 9em;
+    width: 100%;
 }
 
 .title{
     position: relative;
     width: 63em;
     text-align: center;
+    margin-top: 5em;
   }
   
   .title h1{
@@ -24,7 +29,7 @@
   
   .title h2{
     position: absolute;
-    left: 20%;
+    left: 28%;
     top: -55%;
     color: rgb(255, 255, 255, 0.2);
     font-size: 60px;
@@ -40,8 +45,8 @@
 
 
 .son1{
-    background-image: url("../../assets/GrosgarTablet2.jpg");
-    background-size: cover;
+    background-image: url("../../assets/Grosgar.jpeg");
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     width: 400px;
@@ -49,11 +54,12 @@
     border-radius: 20px;
     position: relative;
     margin-top: 20px;
+    background-color: white;
     
 }
 
 .son2{
-    background-image: url("../../assets/workify.jpg");
+    background-image: url("../../assets/workify.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -99,6 +105,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: white;
     width: 400px;
     height: 200px;
     border-radius: 20px;
@@ -146,6 +153,7 @@
     border-radius: 20px;
     position: relative;
     margin-top: 20px;
+    
     
 }
 
