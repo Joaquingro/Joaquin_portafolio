@@ -1,6 +1,11 @@
 .container{
-    background-color: white;
-    height: 500px;
+    background-color: rgb(0, 0, 0);
+    height: 50em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    z-index: 0;
 }
 
 .son{
@@ -19,6 +24,34 @@
     padding: 10px;
 }
 
+.title2{
+    position: relative;
+    width: 63em;
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+  }
+  
+  .title2 h1{
+    border-bottom: 1px solid rgb(202, 131, 0);
+    
+  }
+  
+  .title2 h2{
+    position: absolute;
+    left: 35%;
+    top: -55%;
+    color: rgb(255, 255, 255, 0.2);
+    font-size: 60px;
+  
+  }
+  
+  .title2 h1{
+    font-size: 35px;
+    color: white;
+  }
+  
+  
 .containerSon{
     display: flex;
     align-items: center;
@@ -73,14 +106,39 @@
 
     
 }
+
+.formContainer1{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    z-index: 1;
+    margin-top: -60px;
+    height: 25em;
+    width: 45em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.foot{
+    color: white;
+    margin-top: 5em;
+}
 .sonContact{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 100%;
+    margin-top: 1em;
+    background-color: rgb(21, 21, 21);
+    position: relative;
 }
 .broSon img{
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
+    left: 25%;
+    bottom: -20%;
+    position: absolute;
 }
 
 .send:hover{

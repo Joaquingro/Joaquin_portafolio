@@ -2,6 +2,9 @@ import style from "../Contact/Contact.module.css";
 import 'animate.css';
 import form from "../../assets/Form.png";
 import { useState } from "react";
+import TextField from '@mui/material/TextField';
+import TextareaAutosize from '@mui/material/TextareaAutosize';
+import { Box } from '@mui/system';
 
 export function Contact({id}) {
     const [inputs, setInputs] = useState({
@@ -20,39 +23,74 @@ export function Contact({id}) {
     }
    
     return (
-    <div id= {id} className={style.container}>
-        <div className={style.containerSon}>
-            <div className={style.son}>
-                <h1>Contáctame</h1>
-            </div>
-        </div>
-        <div className={style.sonContact}>
-        <form action="https://formspree.io/f/xbjewvqa"
+    <main id= {id} className={style.container}>
+        
+        <header className={style.title2}>
+                <h2>CONTACTO</h2>
+                <h1>Contacto</h1>
+            </header>
+       
+        <aside className={style.sonContact}>
+
+        <article className={style.broSon}>
+            <img src={form} alt="form"/>
+        </article>
+
+        <form className={style.formContainer1} action="https://formspree.io/f/xbjewvqa"
             method="POST">
-        <div className = {style.title}>
+        <article className = {style.title}>
             <h1>¿Te gusto mi trabajo? ¡Contáctame!</h1>
+        </article>
+
+        <article className={style.formFather}>
+            <div>
+          <TextField
+            label="Nombre"
+            name="name"
+            type="name"
+            value={inputs.name}
+            onChange={handleInput}
+            fullWidth
+          />
         </div>
-            <div className={style.formFather}>
-                <div className={style.formContainer}>
-                    <label htmlFor="name">Nombre</label>
-                    <input name="name" type="name" value = {inputs.name} onChange={handleInput}></input>
-                </div>
-                    <div className={style.formContainer}>
-                    <label htmlFor="email">Correo electrónico</label>
-                    <input name = "email" type="email" value = {inputs.email} onChange={handleInput}></input>
-                </div>  
-            </div>
-            <div className={style.formMessage}>
-                <label htmlFor="mensaje">Mensaje</label>
-                <textarea name="message" type="message" value = {inputs.message} onChange={handleInput}></textarea>
-            </div>
+
+        <div>
+          <TextField
+            label="Correo electrónico"
+            name="email"
+            type="email"
+            value={inputs.email}
+            onChange={handleInput}
+            fullWidth
+          />
+        </div>
+            </article>
+
+            <TextareaAutosize
+            label="Mensaje"
+            name="message"
+            value={inputs.message}
+            onChange={handleInput}
+            minRows={3}
+            placeholder="Escribe tu mensaje aquí"
+             style={{
+            width: '60%',
+            marginTop: '16px',
+            padding: '8px',
+            
+            borderRadius: '4px',
+            resize: 'vertical', // Para permitir redimensionar verticalmente
+          }}
+            />
         
             <button type="submit" className={style.send}>Enviar</button>
         </form>
-        <div className={style.broSon}>
-            <img src={form} alt="form"/>
-        </div>
-        </div>
-    </div>
+
+
+        </aside>
+        <footer className={style.foot}>
+            <p>Joaquin Guerrero - Full Stack Developer</p>
+        </footer>
+    </main>
     );
 }
