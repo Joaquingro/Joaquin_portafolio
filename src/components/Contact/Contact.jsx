@@ -134,6 +134,7 @@ export function Contact({id}) {
         fontFamily: 'inherit',
         borderRadius: '4px',
         resize: 'vertical',
+        fontSize: "17px",
         border: errors.message ? '1px solid red' : '1px solid #ced4da',
         }}
         />
@@ -151,7 +152,7 @@ export function Contact({id}) {
 
         </aside>
         <footer className={style.foot}>
-            <p>Joaquin Guerrero - Full Stack Developer</p>
+            <p>Joaquin Guerrero - Full Stack Developer 🚀</p>
         </footer>
     </main>
     );

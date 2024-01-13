@@ -6,6 +6,14 @@ import Button from '@mui/material/Button';
 
 export function School(props) {
     const {id} = props;
+
+    const cvUrl = 'https://drive.google.com/file/d/1rkLCGkVir341REtsMUO6IlWi8DcrkCd2/view'; 
+
+    const handleDownload = () => {
+      
+      window.open(cvUrl, '_blank');
+    };
+
     return (
     <main id = {id} className={style.container}>
         <section className={style.son}>
@@ -45,7 +53,11 @@ export function School(props) {
                         <p>Español (Nativo) - Inglés (B1) </p>
                     </span>
 
-                    <Button sx={{ borderColor: 'orange', color: 'orange', width: "max-content", borderRadius: "15px", marginTop: "1em" }} variant="outlined">Descargar CV</Button>
+                    <Button 
+                    sx={{ borderColor: 'orange', color: 'orange', width: "max-content", borderRadius: "15px", marginTop: "1em" }} 
+                    variant="outlined"
+                    onClick={handleDownload}
+                    >Descargar CV</Button>
 
                 </div>
             </article>
