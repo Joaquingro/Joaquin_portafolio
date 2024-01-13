@@ -21,6 +21,55 @@ export function Contact({id}) {
         })
 
     }
+
+    const [errors, setErrors] = useState({
+        name: '',
+        email: '',
+        message: '',
+      });
+    
+
+      const handleValidation = () => {
+        let isValid = true;
+        const newErrors = { name: '', email: '', message: '' };
+    
+        if (!inputs.name.trim()) {
+          newErrors.name = 'Nombre es requerido';
+          isValid = false;
+        }
+    
+        if (!inputs.email.trim()) {
+          newErrors.email = 'Correo electrónico es requerido';
+          isValid = false;
+        }
+    
+        if (!inputs.message.trim()) {
+          newErrors.message = 'Mensaje es requerido';
+          isValid = false;
+        }
+    
+        setErrors(newErrors);
+        return isValid;
+      };
+    
+      const handleSubmit = (e) => {
+        e.preventDefault();
+    
+        if (handleValidation()) {
+          // Realizar acciones del formulario aquí si la validación es exitosa
+          console.log('Formulario enviado:', inputs);
+          e.target.submit();
+          setInputs({
+            name: "",
+            email: "",
+            message: "",
+          })
+
+        } else {
+          console.log('Formulario inválido. Corrige los errores.');
+        }
+      };
+
    
     return (
     <main id= {id} className={style.container}>
@@ -36,14 +85,14 @@ export function Contact({id}) {
             <img src={form} alt="form"/>
         </article>
 
-        <form className={style.formContainer1} action="https://formspree.io/f/xbjewvqa"
+        <form onSubmit={handleSubmit} className={style.formContainer1} action="https://formspree.io/f/xbjewvqa"
             method="POST">
         <article className = {style.title}>
             <h1>¿Te gusto mi trabajo? ¡Contáctame!</h1>
         </article>
 
         <article className={style.formFather}>
-            <div>
+        <div>
           <TextField
             label="Nombre"
             name="name"
@@ -51,6 +100,8 @@ export function Contact({id}) {
             value={inputs.name}
             onChange={handleInput}
             fullWidth
+            error={!!errors.name}
+            helperText={errors.name}
           />
         </div>
 
@@ -62,28 +113,39 @@ export function Contact({id}) {
             value={inputs.email}
             onChange={handleInput}
             fullWidth
+            error={!!errors.email}
+            helperText={errors.email}
           />
         </div>
-            </article>
-
-            <TextareaAutosize
-            label="Mensaje"
-            name="message"
-            value={inputs.message}
-            onChange={handleInput}
-            minRows={3}
-            placeholder="Escribe tu mensaje aquí"
-             style={{
-            width: '60%',
-            marginTop: '16px',
-            padding: '8px',
-            
-            borderRadius: '4px',
-            resize: 'vertical', // Para permitir redimensionar verticalmente
-          }}
-            />
+        </article>
         
+        <article className={style.formFather1}>
+        <TextareaAutosize
+        label="Mensaje"
+        name="message"
+        value={inputs.message}
+        onChange={handleInput}
+        minRows={3}
+        placeholder="Escribe tu mensaje aquí"
+        style={{
+        width: '60%',
+        marginTop: '16px',
+        padding: '8px',
+        fontFamily: 'inherit',
+        borderRadius: '4px',
+        resize: 'vertical',
+        border: errors.message ? '1px solid red' : '1px solid #ced4da',
+        }}
+        />
+        {errors.message && (
+            <span style={{ color: 'red', fontSize: '0.75rem', marginTop: '4px' }}>
+            {errors.message}
+            </span>
+        )}
+
             <button type="submit" className={style.send}>Enviar</button>
+        </article>
+        
         </form>
 
 

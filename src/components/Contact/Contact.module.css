@@ -72,11 +72,24 @@
 .formMessage textarea{
     height: 100px;
 }
+
 .formFather{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    width: 100%;
 
 }
+
+.formFather1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+
+}
+
 .formMessage{
     margin-left: 30px;
     display: flex;
@@ -90,13 +103,15 @@
 .title{
     margin-bottom: 40px;
     color: rgb(202, 131, 0);
-    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .send{
     padding: 10px;
-    width: 100px;
-    margin-left: 225px;
+    width: 10em;
     background-color:white ;
     color: rgb(202, 131, 0);
     margin-top: 10px;
@@ -117,7 +132,6 @@
     width: 45em;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
 }
 
 .foot{
