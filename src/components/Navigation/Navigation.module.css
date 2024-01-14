@@ -7,7 +7,7 @@
     z-index: 9999;
     position: fixed;
     top: 5%;
-    right: 5%;
+    right: 1%;
     background-color: rgb(202, 131, 0);
     border-radius: 10em;
     padding: 10px;
@@ -48,34 +48,11 @@
   background-color: rgba(202, 131, 0);
   position: fixed;
   top: -53%;
-  right: -22%;
+  right: -25%;
   border-radius: 50%;
-  transition: width 0.3s, height 0.3s;
   overflow: hidden;
-  animation: slideIn 1s forwards;
   align-items: center;
   
-}
-
-@keyframes slideIn {
-  from {
-    transform: translate(100%, -100%);
-  }
-  to {
-    transform: translate(0, 0);
-  }
-}
-
-@keyframes slideOut {
-  from {
-    transform: translate(0, 0);
-  }
-  to {
-    transform: translate(100%, -100%);
-  }
-}
-.circularMenu.slideOut {
-  animation: slideOut 1s forwards;
 }
 
 
@@ -98,3 +75,83 @@
 
 
 
+@media (max-width: 391px) {
+  .circularMenu{
+    height: 20em;
+    width: 20em;
+    right: -15%;
+    top: -10%;
+  }
+
+  .container{
+    height: 3em;
+    width: 3em;
+    top: 1%;
+    right: 1%;
+  }
+
+  .son a{
+    font-size: 1.1em;
+  }
+
+  .containerList{
+    top: 27%;
+    left: 25%;
+  }
+}
+@media (min-width: 391px) and (max-width: 768px) {
+  /* Estilos para pantallas con ancho máximo de 768px */
+  .circularMenu{
+    height: 25em;
+    width: 25em;
+    right: -15%;
+    top: -10%;
+  }
+
+  .container{
+    
+    top: 1%;
+    right: 1%;
+  }
+
+  .son a{
+    font-size: 1.1em;
+  }
+
+  .containerList{
+    top: 32%;
+    left: 20%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Estilos para pantallas con ancho entre 768px y 992px */
+  .circularMenu{
+    height: 28em;
+    width: 28em;
+    right: -15%;
+    top: -10%;
+  }
+
+  .container{
+    
+    top: 1%;
+    right: 1%;
+  }
+
+  .son a{
+    font-size: 1.3em;
+  }
+
+  .containerList{
+    top: 32%;
+    left: 20%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Estilos para pantallas con ancho mínimo de 992px */
+  .circularMenu{
+    right: -30%;
+  }
+}

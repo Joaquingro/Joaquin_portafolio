@@ -1,35 +1,47 @@
 import React, { useState } from 'react';
-import { IconButton, Drawer, List, ListItem, ListItemText } from '@mui/material';
+import { IconButton, Drawer } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import style from "./Navigation.module.css";
 import CloseIcon from '@mui/icons-material/Close';
+import 'animate.css';
 
 export function Navigation() {
     const [open, setOpen] = useState(false);
-
+    console.log(open);
+    const [animateClass, setAnimateClass] = useState('');
+    console.log(animateClass);
     const toggleDrawer = () => {
-        setOpen(!open);
+        setTimeout(() => {
+            setOpen(!open);
+            
+        }, 200);
+        setAnimateClass(open ? 'animate__rotateOutUpRight' : 'animate__rotateInDownRight');
     };
 
     const handleLinkClick = () => {
-        setOpen(false);
+        setAnimateClass('animate__rotateOutUpRight');
+        setTimeout(() => {
+            setOpen(false);
+            setAnimateClass('');
+        }, 500);
     };
-
     return (
         <div className={style.container}>
-            {/* Icono de menú hamburguesa */}
             <IconButton 
                 onClick={toggleDrawer} 
                 color="inherit" 
                 aria-label="menu"
+               
                
             >
                   {open ? <CloseIcon 
                   sx={{
                     fontSize: "3rem",
                     color: "white",
-                  }} /> : 
+                  }}
+                  
+                   /> : 
                   <MenuIcon
                   sx={{
                     fontSize: "3rem", 
@@ -39,13 +51,12 @@ export function Navigation() {
                    />}
             </IconButton>
 
-            {/* Menú lateral */}
             <Drawer anchor="left" 
             open={open}
             onClose={toggleDrawer}
             
             >
-            <div className={`${style.circularMenu} ${!open ? style.slideOut : ''}`}>
+            <div className={`animate__animated ${animateClass} ${style.circularMenu}`}>
             <div className={style.containerList} >
                 <div className={style.son} onClick={handleLinkClick} >
                     <AnchorLink href="#home">Inicio</AnchorLink>

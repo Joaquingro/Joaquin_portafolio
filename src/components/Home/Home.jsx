@@ -20,7 +20,7 @@ export function Home({id}){
                      <h1>Soy Joaquin Guerrero</h1>
                 </div>
                 
-                <p className="animate__animated animate__backInRight animate__slow"> Soy un apasionado Desarrollador Web Full Stack e Ingeniero en Sistemas, comprometido con la excelencia en la creación de soluciones tecnológicas eficientes y elegantes</p>
+                <p className="animate__animated animate__backInRight animate__slow"> Soy un Desarrollador Web Full Stack e Ingeniero en Sistemas, comprometido con la excelencia en la creación de soluciones tecnológicas eficientes y elegantes</p>
 
                 <footer className={style.foot}>
                 <a href="https://www.linkedin.com/in/joaquin-guerrero-728826260/" className={style.iconLink} target="_blank" rel="noopener noreferrer">
