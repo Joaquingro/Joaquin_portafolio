@@ -4,6 +4,12 @@ import Box from '@mui/material/Box';
 import LinearProgress from '@mui/material/LinearProgress';
 import Typography from '@mui/material/Typography';
 import style from "./barProgress.module.css";
+import ConstructionIcon from '@mui/icons-material/Construction';
+import MenuBookIcon from '@mui/icons-material/MenuBook';
+import JavascriptIcon from '@mui/icons-material/Javascript';
+import StorageIcon from '@mui/icons-material/Storage';
+import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
+import GroupsIcon from '@mui/icons-material/Groups';
 
 export function LinearProgressWithLabel(props) {
   return (
@@ -39,27 +45,63 @@ export default function LinearWithValueLabel() {
   return (
     <div className={style.container}>
       <Box sx={{ width: '90%' }}>
-        <p>HTML/CSS</p>
+        <p className={style.title}>
+          HTML/CSS 
+        <ConstructionIcon 
+        sx={{
+          marginLeft: "10px"
+        }} /> 
+        </p>
         <LinearProgressWithLabel value={progress1} />
       </Box>
       <Box sx={{ width: '90%' }}>
-        <p>Librerías Front-End</p>
+        <p className={style.title}>
+          Librerías Front-End 
+          <MenuBookIcon 
+          sx={{
+          marginLeft: "10px"
+        }}/> 
+        </p>
         <LinearProgressWithLabel value={progress2} />
       </Box>
       <Box sx={{ width: '90%' }}>
-        <p>Javascript</p>
+        <p className={style.title}>
+          Javascript 
+          <JavascriptIcon 
+          sx={{
+          marginLeft: "10px"
+        }}/> 
+        </p>
         <LinearProgressWithLabel value={progress3} />
       </Box>
       <Box sx={{ width: '90%'}}>
-        <p>Back-end y Servidores</p>
+        <p className={style.title}>
+          Back-end y Servidores 
+          <StorageIcon 
+          sx={{
+          marginLeft: "10px"
+        }}/> 
+        </p>
         <LinearProgressWithLabel value={progress4} />
       </Box>
       <Box sx={{ width: '90%'}}>
-        <p>Desarrollo Responsivo</p>
+        <p className={style.title}>
+          Desarrollo Responsivo 
+          <PhoneAndroidIcon 
+          sx={{
+          marginLeft: "10px"
+        }}/> 
+        </p>
         <LinearProgressWithLabel value={progress5} />
       </Box>
       <Box sx={{ width: '90%'}}>
-        <p>Trabajo en equipo</p>
+        <p className={style.title}>
+          Trabajo en equipo 
+          <GroupsIcon 
+          sx={{
+            marginLeft: "10px"
+          }}/> 
+          </p>
         <LinearProgressWithLabel value={progress6} />
       </Box>
     </div>

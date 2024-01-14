@@ -4,6 +4,13 @@
     margin-top: -5em;
 }
 
+
 .container p{
     color: white;
 }
+
+.title{
+    text-align: center;
+    display: flex;
+}
+

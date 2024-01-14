@@ -87,6 +87,9 @@ export function Contact({id}) {
 
         <form onSubmit={handleSubmit} className={style.formContainer1} action="https://formspree.io/f/xbjewvqa"
             method="POST">
+        <div className={style.buble}></div>
+        
+
         <article className = {style.title}>
             <h1>¿Te gusto mi trabajo? ¡Contáctame!</h1>
         </article>
@@ -100,6 +103,11 @@ export function Contact({id}) {
             value={inputs.name}
             onChange={handleInput}
             fullWidth
+            style={{
+                backgroundColor: "white",
+                borderRadius: "5px"
+
+            }}
             error={!!errors.name}
             helperText={errors.name}
           />
@@ -112,6 +120,10 @@ export function Contact({id}) {
             type="email"
             value={inputs.email}
             onChange={handleInput}
+            style={{
+                backgroundColor: "white",
+                borderRadius: "5px"
+            }}
             fullWidth
             error={!!errors.email}
             helperText={errors.email}

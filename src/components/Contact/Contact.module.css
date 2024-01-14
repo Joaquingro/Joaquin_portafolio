@@ -78,6 +78,9 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    position: relative;
+    z-index: 1;
+    
 
 }
 
@@ -87,6 +90,9 @@
     justify-content: center;
     width: 100%;
     align-items: center;
+    position: relative;
+    z-index: 1;
+
 
 }
 
@@ -101,12 +107,15 @@
 }
 
 .title{
-    margin-bottom: 40px;
+    margin-top: 40px;
     color: rgb(202, 131, 0);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    
+    z-index: 1;
+    position: relative;
 }
 
 .send{
@@ -122,9 +131,22 @@
     
 }
 
+.buble{
+    height: 94%;
+    width: 96%;
+    background-color: rgb(255, 255, 255);
+    top: 3%;
+    left: 2%;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 0;
+   
+
+}
+
+
 .formContainer1{
-    background-color: white;
-    padding: 10px;
+    background-color: rgb(202, 131, 0);
     border-radius: 20px;
     z-index: 1;
     margin-top: -60px;
@@ -132,6 +154,8 @@
     width: 45em;
     display: flex;
     flex-direction: column;
+    position: relative;
+    overflow: hidden; 
 }
 
 .foot{
@@ -156,17 +180,22 @@
 }
 
 .send:hover{
-    background-color: rgb(202, 131, 0);
+    background-color: rgb(0, 0, 0);
     color: white;
     animation-duration: 1s;
     animation-name: fadeIn;
     cursor: pointer;
     
 }
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
 }
+
+
+
+
 
 @media (max-width: 414px){
     .son{
