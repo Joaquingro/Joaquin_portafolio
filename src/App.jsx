@@ -6,16 +6,16 @@ import { Cpu } from './components/Cpu/Cpu';
 import { Formation } from './components/Formation/Formation';
 import { Projects } from './components/Projects/Projects';
 import { Contact } from './components/Contact/Contact';
-import { Navigation } from './components/Navigation/Navigation';
+import {Navigation} from './components/Navigation/Navigation';
 
 function App() {
   return (
     <div className="App">
-      {/* <Navigation/> */}
+      <Navigation/>
        <Home id = "home"/>
        <Cpu/>
        <School id = "school"/>
-       <Formation/>
+       <Formation id = "skills"/>
        <Projects id = "projects"/>
        <Contact id = "contact"/>
     </div>

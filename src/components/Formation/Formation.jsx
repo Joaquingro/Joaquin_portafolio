@@ -7,11 +7,11 @@ import js from "../../assets/JS.png";
 import post from "../../assets/Post.png";
 import express from "../../assets/express.png";
 import 'animate.css';
-import LinearWithValueLabel, { LinearProgressWithLabel } from '../Formation/barProgress';
+import LinearWithValueLabel from '../Formation/barProgress';
 
-export function Formation() {
+export function Formation({id}) {
     return (
-    <main className={style.containerFather1}>
+    <main id={id} className={style.containerFather1}>
     <header className={style.title}>
             <h2>SKILLS Y TECNOLOGÍAS</h2>
             <h1>Skills y Tecnologías</h1>
