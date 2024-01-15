@@ -161,24 +161,34 @@
   }
 
 
-  @media (max-width: 391px) {
+  @media (max-width: 454px) {
+    .title{
+      width: 100%;
   }
-  @media (min-width: 391px) and (max-width: 768px) {
-    /* Estilos para pantallas con ancho máximo de 768px */
-  }
-  
-  @media (min-width: 768px) and (max-width: 992px) {
-    /* Estilos para pantallas con ancho entre 768px y 992px */
-  }
-  
-  @media (min-width: 992px) {
-    /* Estilos para pantallas con ancho mínimo de 992px */
-  }
-  
-  @media (max-width: 414px){
+
+    .title h2{
+      font-size: 40px;
+      left: -2%;
+      top:-35%;
+      width: max-content;
+
+    }
+    .containerFather1{
+      height: max-content;
+      margin-bottom: 20em;
+    }
+    .containerFather{
+      flex-direction: column;
+      align-items: center;
+      margin-top: 12em;
+    }
+
     .container{
+      height: max-content;
+      padding-right: 15px;
       width: 340px;
     }
+
     .son1 h1{
       font-size: 25px;
     }
@@ -222,8 +232,310 @@
       max-width: 100%;
     }
   }
+  @media (min-width: 455px) and (max-width: 531px) {
+    /* Estilos para pantallas con ancho máximo de 768px */
 
-  @media (max-width: 379px){
-    
-
+    .title{
+      width: 100%;
   }
+
+    .title h2{
+      font-size: 40px;
+      left: 4%;
+      top:-35%;
+      width: max-content;
+
+    }
+    .containerFather1{
+      height: max-content;
+      margin-bottom: 18em;
+ 
+    }
+    .containerFather{
+      flex-direction: column;
+      align-items: center;
+      margin-top: 7em;
+    }
+
+    .container{
+      height: max-content;
+      padding-right: 15px;
+      width: 400px;
+
+    }
+
+    .son1 h1{
+      font-size: 25px;
+    }
+    .techItem{
+      width: 60px;
+      height: 60px;
+    }
+    .techItem h2{
+      font-size: 15px;
+      margin-top: -8px;
+    }
+    .techItem img.react {
+      max-width: 100px;
+      margin-top: -15px;
+    }
+    .techItem img.redux {
+      max-width: 85px;
+      height: auto;
+    }
+    .techItem img.css {
+      max-width: 45px;
+      margin-top: 3px;
+    }
+    .techItem img.html {
+      max-width: 60px;
+      margin-top: 4px;
+      
+    }
+    .techItem img.js {
+      max-width: 65px;
+      margin-top: 5px;
+      
+    }
+    .techItem img.node {
+      max-width: 65px;
+      margin-top: 8px;
+      
+    }
+  
+    .techItem img {
+      max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 532px) and (max-width: 710px) {
+    /* Estilos para pantallas con ancho entre 768px y 992px */
+    .title{
+      width: 100%;
+  }
+
+    .title h2{
+      font-size: 40px;
+      left: 15%;
+      top:-35%;
+      width: max-content;
+
+    }
+    .containerFather1{
+      height: max-content;
+      margin-bottom: 20em;
+
+    }
+    .containerFather{
+      flex-direction: column;
+      align-items: center;
+      margin-top: 8em;
+    }
+
+    .container{
+      height: max-content;
+      padding-right: 15px;
+      width: 500px;
+
+    }
+
+    .son1 h1{
+      font-size: 25px;
+    }
+    .techItem{
+      width: 80px;
+      height: 80px;
+    }
+    .techItem h2{
+      font-size: 15px;
+      margin-top: -8px;
+    }
+    .techItem img.react {
+      max-width: 100px;
+      margin-top: -15px;
+    }
+    .techItem img.redux {
+      max-width: 85px;
+      height: auto;
+    }
+    .techItem img.css {
+      max-width: 45px;
+      margin-top: 3px;
+    }
+    .techItem img.html {
+      max-width: 60px;
+      margin-top: 4px;
+      
+    }
+    .techItem img.js {
+      max-width: 65px;
+      margin-top: 5px;
+      
+    }
+    .techItem img.node {
+      max-width: 65px;
+      margin-top: 8px;
+      
+    }
+  
+    .techItem img {
+      max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 711px) and (max-width: 900px) {
+    /* Estilos para pantallas con ancho entre 768px y 992px */
+    .title{
+      width: 100%;
+  }
+
+    .title h2{
+      font-size: 40px;
+      left: 24%;
+      top:-35%;
+      width: max-content;
+
+    }
+    .containerFather1{
+      height: max-content;
+      margin-bottom: 20em;
+
+    }
+    .containerFather{
+      flex-direction: column;
+      align-items: center;
+      margin-top: 9em;
+    }
+
+    .container{
+      height: max-content;
+      padding-right: 15px;
+      width: 550px;
+
+    }
+
+    .son1 h1{
+      font-size: 25px;
+    }
+    .techItem{
+      width: 90px;
+      height: 90px;
+    }
+    .techItem h2{
+      font-size: 15px;
+      margin-top: -8px;
+    }
+    .techItem img.react {
+      max-width: 100px;
+      margin-top: -15px;
+    }
+    .techItem img.redux {
+      max-width: 85px;
+      height: auto;
+    }
+    .techItem img.css {
+      max-width: 45px;
+      margin-top: 3px;
+    }
+    .techItem img.html {
+      max-width: 60px;
+      margin-top: 4px;
+      
+    }
+    .techItem img.js {
+      max-width: 65px;
+      margin-top: 5px;
+      
+    }
+    .techItem img.node {
+      max-width: 65px;
+      margin-top: 8px;
+      
+    }
+  
+    .techItem img {
+      max-width: 100%;
+    }
+  }
+
+  @media (min-width: 901px) and (max-width: 1200px) {
+    /* Estilos para pantallas con ancho entre 768px y 992px */
+    .title{
+      width: 100%;
+  }
+
+    .title h2{
+      font-size: 40px;
+      left: 30%;
+      top:-35%;
+      width: max-content;
+
+    }
+    .containerFather1{
+      height: max-content;
+      margin-bottom: 20em;
+
+    }
+    .containerFather{
+      flex-direction: column;
+      align-items: center;
+      margin-top: 11em;
+    }
+
+    .container{
+      height: max-content;
+      padding-right: 15px;
+      width: 650px;
+
+    }
+
+    .son1 h1{
+      font-size: 25px;
+    }
+    .techItem{
+      width: 100px;
+      height: 100px;
+    }
+    .techItem h2{
+      font-size: 15px;
+      margin-top: -8px;
+    }
+    .techItem img.react {
+      max-width: 180px;
+      margin-top: -15px;
+    }
+    .techItem img.redux {
+      max-width: 100%;
+      height: auto;
+    }
+    .techItem img.css {
+      max-width: 60px;
+      margin-top: 3px;
+    }
+    .techItem img.html {
+      max-width: 80px;
+      margin-top: 4px;
+      
+    }
+    .techItem img.js {
+      max-width: 100px;
+      margin-top: 5px;
+      
+    }
+    .techItem img.node {
+      max-width: 100%;
+      margin-top: 8px;
+      
+    }
+  
+    .techItem img {
+      max-width: 100%;
+    }
+  }
+
+  @media (min-width: 1201px) and (max-width: 1445px) {
+    .container{
+      width: 600px;
+    }
+  }
+

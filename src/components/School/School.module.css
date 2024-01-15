@@ -111,7 +111,7 @@
     }
     .title h2{
         left: 16%;
-        top: -30%;
+        top: -25%;
         font-size: 40px;
         width: max-content;
     }
@@ -130,7 +130,7 @@
     }
 
     .info{
-        width: 22em;
+        width: 21.5em;
         padding: 10px;
         margin-left: 2em;
     }
@@ -264,7 +264,7 @@
         width: auto;
     }
     .title h2{
-        left: 16%;
+        left: 25%;
         top: -30%;
         font-size: 40px;
         width: max-content;
