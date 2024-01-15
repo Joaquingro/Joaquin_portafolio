@@ -107,17 +107,17 @@
         justify-content: flex-start;
     }
     .title{
-        width: fit-content;
+        width: auto;
     }
     .title h2{
-        left: -15%;
+        left: 16%;
         top: -30%;
         font-size: 40px;
         width: max-content;
     }
 
     .imgProfile img{
-        width: 20em;
+        width: 22em;
     }
 
     .baby{
@@ -125,20 +125,23 @@
         justify-content: center;
         width: max-content;
         padding-left: 0;
-        margin-left: -4em;
+        align-items: center;
 
     }
 
     .info{
-        margin-left: -2px;
-        width: 19.5em;
+        width: 22em;
         padding: 10px;
+        margin-left: 2em;
     }
 
     .arrow{
         left: 34%;
 
         
+    }
+    .son{
+        margin: 0 0;
     }
     
    
