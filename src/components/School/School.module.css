@@ -158,16 +158,11 @@
     align-self: center;
     justify-content: flex-start;
 }
-  .title{
-    width: fit-content;
-}
-
-.title h1{
-    margin-left: 1em;
-
+.title{
+    width: auto;
 }
 .title h2{
-    left: 0%;
+    left: 16%;
     top: -30%;
     font-size: 40px;
     width: max-content;
@@ -182,20 +177,25 @@
     justify-content: center;
     width: max-content;
     padding-left: 0;
-    margin-left: -4em;
+    align-items: center;
 
 }
 
 .info{
+    width: 22em;
+    padding: 10px;
     margin-left: 2em;
-    width: 20em;
 }
 
 .arrow{
-    left: 38%;
+    left: 34%;
 
     
 }
+.son{
+    margin: 0 0;
+}
+
 
 
 
@@ -210,18 +210,18 @@
     align-self: center;
     justify-content: flex-start;
 }
-  .title{
+.title{
     width: auto;
 }
 .title h2{
-    left: 10%;
+    left: 16%;
     top: -30%;
     font-size: 40px;
     width: max-content;
 }
 
 .imgProfile img{
-    width: 24em;
+    width: 22em;
 }
 
 .baby{
@@ -229,19 +229,23 @@
     justify-content: center;
     width: max-content;
     padding-left: 0;
-    margin-left: -4em;
+    align-items: center;
 
 }
 
 .info{
-    margin-left: 3em;
     width: 22em;
+    padding: 10px;
+    margin-left: 2em;
 }
 
 .arrow{
-    left: 40%;
+    left: 36%;
 
     
+}
+.son{
+    margin: 0 0;
 }
 
 
@@ -256,40 +260,44 @@
         align-self: center;
         justify-content: flex-start;
     }
-    
     .title{
-      width: auto;
-  }
-  .title h2{
-      left: 10%;
-      top: -30%;
-      font-size: 40px;
-      width: max-content;
-  }
-  
-  .imgProfile img{
-      flex-grow: 1;
-  }
-  
-  .baby{
-      flex-direction: column;
-      justify-content: center;
-      width: max-content;
-      padding-left: 0;
-      margin-left: -4em;
-  
-  }
-  
-  .info{
-      margin-left: 3em;
-      width: 22em;
-  }
-  
-  .arrow{
-      left: 38%;
-  
-      
-  }
+        width: auto;
+    }
+    .title h2{
+        left: 16%;
+        top: -30%;
+        font-size: 40px;
+        width: max-content;
+    }
+    
+    .imgProfile img{
+        width: 24em;
+    }
+    
+    .baby{
+        flex-direction: column;
+        justify-content: center;
+        width: max-content;
+        padding-left: 0;
+        align-items: center;
+    
+    }
+    
+    .info{
+        width: 28em;
+        padding: 10px;
+        margin-left: 2em;
+    }
+    
+    .arrow{
+        left: 36%;
+    
+        
+    }
+    .son{
+        margin: 0 0;
+    }
+
   
   
   }
@@ -321,7 +329,7 @@
   
   .info{
       margin-left: 3em;
-      width: 22em;
+      width: 24em;
   }
   
   .arrow{
