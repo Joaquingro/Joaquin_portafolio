@@ -78,8 +78,7 @@
 
 @media (max-width: 391px) {
   .circularMenu{
-    height: 30em;
-    width: 30em;
+    
     right: -50%;
     top: -15%;
   }
@@ -90,7 +89,7 @@
   }
 
   .son a{
-    font-size: 1.1em;
+    font-size: 2.5em;
   }
 
   .containerList{
@@ -98,27 +97,25 @@
     left: 20%;
   }
 }
-@media (min-width: 391px) and (max-width: 414px) {
+@media (min-width: 392px) and (max-width: 414px) {
   /* Estilos para pantallas con ancho máximo de 768px */
   .circularMenu{
-    height: 25em;
-    width: 25em;
-    right: -15%;
-    top: -6%;
+    
+    right: -50%;
+    top: -15%;
   }
 
   .container{
-    
-    top: 1%;
+    top: 4%;
     right: 1%;
   }
 
   .son a{
-    font-size: 1.1em;
+    font-size: 2.5em;
   }
 
   .containerList{
-    top: 32%;
+    top: 37%;
     left: 20%;
   }
 }
@@ -126,24 +123,22 @@
 @media (min-width: 415px) and (max-width: 992px) {
   /* Estilos para pantallas con ancho entre 768px y 992px */
   .circularMenu{
-    height: 28em;
-    width: 28em;
-    right: -15%;
-    top: -7%;
+    
+    right: -50%;
+    top: -15%;
   }
 
   .container{
-    
-    top: 1%;
+    top: 4%;
     right: 1%;
   }
 
   .son a{
-    font-size: 1.3em;
+    font-size: 2.5em;
   }
 
   .containerList{
-    top: 34%;
+    top: 37%;
     left: 20%;
   }
 }
