@@ -76,8 +76,8 @@
 @media (max-width: 399px){
   .circularMenu{
     
-    right: -180%;
-    top: -90%;
+    right: -165%;
+    top: -70%;
   }
 
   .container{
@@ -92,8 +92,8 @@
   }
 
   .containerList{
-    top: 64%;
-    left: 15%;
+    top: 67%;
+    left: 14%;
   }
 }
 
