@@ -16,8 +16,8 @@
 
 .containerList{
  position: absolute;
- left: 19%;
- bottom: 17%;
+ left: 15%;
+ bottom: 15%;
  height: max-content;
 
 }
@@ -47,9 +47,9 @@
   width: 60em;
   background-color: rgba(202, 131, 0);
   position: fixed;
-  top: -53%;
-  right: -25%;
-  border-radius: 50%;
+  top: -55%;
+  right: -28%;
+  border-radius: 40%;
   overflow: hidden;
   align-items: center;
   
@@ -73,36 +73,83 @@
   
 }
 
-
-
-
-@media (max-width: 391px) {
+@media (max-width: 399px){
   .circularMenu{
     
-    right: -50%;
-    top: -25%;
+    right: -180%;
+    top: -70%;
   }
 
   .container{
     top: 4%;
     right: 1%;
+    height: 2em;
+    width: 2em;
   }
 
   .son a{
-    font-size: 2.5em;
+    font-size: 1.1em;
   }
 
   .containerList{
-    top: 50%;
-    left: 20%;
+    top: 64%;
+    left: 15%;
   }
 }
-/* 
-@media (min-width: 392px) and (max-width: 465px) {
+
+@media (min-width: 400px) and (max-width: 439px){
   .circularMenu{
     
-    right: -50%;
-    top: -25%;
+    right: -155%;
+    top: -70%;
+  }
+
+  .container{
+    top: 4%;
+    right: 1%;
+    height: 2em;
+    width: 2em;
+  }
+
+  .son a{
+    font-size: 1.1em;
+  }
+
+  .containerList{
+    top: 64%;
+    left: 15%;
+  }
+}
+
+@media (min-width: 440px) and (max-width: 491px){
+  .circularMenu{
+    
+    right: -140%;
+    top: -70%;
+  }
+
+  .container{
+    top: 4%;
+    right: 1%;
+    height: 2em;
+    width: 2em;
+  }
+
+  .son a{
+    font-size: 1.1em;
+  }
+
+  .containerList{
+    top: 64%;
+    left: 15%;
+  }
+}
+
+@media (min-width: 492px) and (max-width: 549px) {
+  .circularMenu{
+    
+    right: -120%;
+    top: -70%;
   }
 
   .container{
@@ -111,21 +158,22 @@
   }
 
   .son a{
-    font-size: 2.5em;
+    font-size: 1.1em;
   }
 
   .containerList{
-    top: 50%;
-    left: 20%;
+    top: 64%;
+    left: 15%;
   }
-} */
+}
 
-@media (min-width: 392px) and (max-width: 549px) {
+
+@media (min-width: 550px) and (max-width: 619px) {
   /* Estilos para pantallas con ancho entre 768px y 992px */
   .circularMenu{
     
-    right: -40%;
-    top: -25%;
+    right: -95%;
+    top: -70%;
   }
 
   .container{
@@ -134,20 +182,20 @@
   }
 
   .son a{
-    font-size: 2.5em;
+    font-size: 1.3em;
   }
 
   .containerList{
-    top: 50%;
+    top: 65%;
     left: 20%;
   }
 }
 
-@media (min-width: 550px) and (max-width: 610px) {
+@media (min-width: 620px) and (max-width: 650px) {
   .circularMenu{
     
-    right: -40%;
-    top: -30%;
+    right: -85%;
+    top: -65%;
   }
 
   .container{
@@ -156,20 +204,20 @@
   }
 
   .son a{
-    font-size: 2.5em;
+    font-size: 1.4em;
   }
 
   .containerList{
-    top: 50%;
-    left: 20%;
+    top: 58%;
+    left: 15%;
   }
 }
 
-@media (min-width: 611px) and (max-width: 700px) {
+@media (min-width: 651px) and (max-width: 770px) {
   .circularMenu{
     
-    right: -40%;
-    top: -30%;
+    right: -80%;
+    top: -70%;
   }
 
   .container{
@@ -178,19 +226,19 @@
   }
 
   .son a{
-    font-size: 2.6em;
+    font-size: 1.5em;
   }
 
   .containerList{
-    top: 50%;
-    left: 20%;
+    top: 62%;
+    left: 15%;
   }
 }
 @media (min-width: 701px) and (max-width: 790px) {
   .circularMenu{
     
-    right: -40%;
-    top: -40%;
+    right: -75%;
+    top: -70%;
   }
 
   .container{
@@ -199,41 +247,111 @@
   }
 
   .son a{
-    font-size: 2.2em;
+    font-size: 1.6em;
   }
 
   .containerList{
-    top: 50%;
-    left: 20%;
+    top: 62%;
+    left: 15%;
   }
 }
 
-@media (min-width: 791px) and (max-width: 950px) {
+@media (min-width: 791px) and (max-width: 800px) {
   /* Estilos para pantallas con ancho mínimo de 992px */
   .circularMenu{
-    right: -50%;
-    top: -45%;
+    right: -70%;
+    top: -70%;
+  }
+
+  .son a{
+    font-size: 1.6em;
+  }
+
+  .containerList{
+    top: 62%;
+    left: 15%;
   }
 }
 
-@media (min-width: 951px) and (max-width: 1050px) {
+@media (min-width: 801px) and (max-width: 930px) {
   .circularMenu{
-    right: -50%;
-    top: -50%;
+    right: -60%;
+    top: -70%;
+  }
+
+  .son a{
+    font-size: 1.6em;
+  }
+
+  .containerList{
+    top: 62%;
+    left: 15%;
   }
 }
 
-@media (min-width: 1051px) and (max-width: 1300px) {
+@media (min-width: 931px) and (max-width: 1000px) {
+ 
+  .circularMenu{
+    right: -56%;
+    top: -70%;
+  }
+
+  .son a{
+    font-size: 1.6em;
+  }
+
+  .containerList{
+    top: 62%;
+    left: 15%;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1078px) {
+  .circularMenu{
+    right: -52%;
+    top: -70%;
+  }
+
+  .son a{
+    font-size: 1.6em;
+  }
+
+  .containerList{
+    top: 62%;
+    left: 15%;
+  }
+}
+
+
+@media (min-width: 1079px) and (max-width: 1200px) {
+  .circularMenu{
+    right: -45%;
+    top: -70%;
+  }
+
+  .son a{
+    font-size: 1.6em;
+  }
+
+  .containerList{
+    top: 62%;
+    left: 15%;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
   .circularMenu{
     right: -40%;
-    top: -50%;
+    top: -70%;
   }
-}
 
-@media (min-width: 1301px) and (max-width: 1600px) {
-  .circularMenu{
-    right: -34%;
-    top: -50%;
+  .son a{
+    font-size: 1.6em;
+  }
+
+  .containerList{
+    top: 62%;
+    left: 15%;
   }
 }
 
