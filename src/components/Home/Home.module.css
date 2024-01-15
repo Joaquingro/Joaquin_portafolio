@@ -33,6 +33,8 @@
 .txt p{
     margin-top: 0;
     margin-bottom: 2em;
+    width: auto;
+    padding: 5px;
 }
 
 .txt div{
@@ -70,74 +72,50 @@
 
 
 
- @media (max-width: 414px){
-    .container{
-        height: 500px;
-        width: 140px;
+@media (max-width: 391px) {
+
+    .txt div{
+        display: flex;
+        flex-direction: column;
+
     }
-    .image img{
-        height: 340px;
-    }
-    .image{
-        margin-left: -50px;
-        margin-top: 160px;
-    }
-    .txt h1{
-        font-size: 15px;
-    }
-    .txt h3{
-        font-size: 10px;
-    }
+
     .txt p{
-        font-size: 12px;
+        padding: 5px;
     }
-    .txt{
-        margin-top: 60px;
-        margin-left: 55px;
-        width: 170px;
-    }
-    .container3 img.linked{
-        width: 47px;
-        height: 36px;
-    }
-    .container3 img.git{
-        width: 35px;
-        height: 35px;
-    }
-    .container3{
-        height: 50px;
-        margin-left: -70px;
-        z-index: 9999;
-    }
- }
 
- @media (max-width: 379px){
-    .container{
-        height: 500px;
-        width: 120px;
+    .father{
+        background-size: cover;
     }
-    .container2{
-        margin-right: 0;
-        margin-left: 0;
-        overflow-x: hidden;
-        right: 0;
-    }
-    
-    .container3{
-        margin-left: -100px;
-        width: 0;
-        display: flex; 
-        justify-content: flex-start;
 
-    }
-    
-    .image img{
-        height: 300px;
-    }
-    .image{
-        margin-left: -50px;
-        margin-top: 200px;
+}
+@media (min-width: 391px) and (max-width: 768px) {
+  /* Estilos para pantallas con ancho máximo de 768px */
+  .txt div{
+    display: flex;
+    flex-direction: column;
 
-    }
-    
- }
+}
+
+.txt p{
+    padding: 5px;
+}
+
+.father{
+    background-size: cover;
+}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Estilos para pantallas con ancho entre 768px y 992px */
+  .father{
+    background-size: cover;
+}
+}
+
+@media (min-width: 992px) {
+  /* Estilos para pantallas con ancho mínimo de 992px */
+  .father{
+    background-size: cover;
+}
+}
