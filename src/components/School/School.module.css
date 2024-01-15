@@ -99,7 +99,7 @@
 
 
 
-@media (max-width: 392px) {
+@media (max-width: 391px) {
     .title{
         width: fit-content;
     }
@@ -124,8 +124,8 @@
     }
 
     .info{
-        margin-left: 0;
-        width: 20em;
+        margin-left: -2px;
+        width: 19.5em;
         padding: 10px;
     }
 
@@ -141,7 +141,7 @@
 
   
 }
-@media (min-width: 393px) and (max-width: 429px) {
+@media (min-width: 392px) and (max-width: 429px) {
   /* Estilos para pantallas con ancho máximo de 768px */
   .title{
     width: fit-content;
