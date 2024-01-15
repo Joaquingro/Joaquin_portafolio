@@ -141,7 +141,7 @@
 
   
 }
-@media (min-width: 401px) and (max-width: 432px) {
+@media (min-width: 401px) and (max-width: 463px) {
   /* Estilos para pantallas con ancho máximo de 768px */
   .title{
     width: fit-content;
@@ -186,7 +186,7 @@
 
 }
 
-@media (min-width: 433px) and (max-width: 530px) {
+@media (min-width: 464px) and (max-width: 530px) {
   /* Estilos para pantallas con ancho entre 768px y 992px */
  
   
