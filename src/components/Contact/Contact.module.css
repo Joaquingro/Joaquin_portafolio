@@ -250,6 +250,9 @@
     width: max-content;
 }
 
+.broSon img{
+    display: none;
+}
 
 }
 
