@@ -99,7 +99,7 @@
 
 
 
-@media (max-width: 391px) {
+@media (max-width: 396px) {
     .title{
         width: fit-content;
     }
@@ -130,7 +130,7 @@
     }
 
     .arrow{
-        left: 35%;
+        left: 34%;
 
         
     }
@@ -141,7 +141,7 @@
 
   
 }
-@media (min-width: 392px) and (max-width: 429px) {
+@media (min-width: 397px) and (max-width: 432px) {
   /* Estilos para pantallas con ancho máximo de 768px */
   .title{
     width: fit-content;
@@ -186,7 +186,7 @@
 
 }
 
-@media (min-width: 430px) and (max-width: 530px) {
+@media (min-width: 433px) and (max-width: 530px) {
   /* Estilos para pantallas con ancho entre 768px y 992px */
  
   
