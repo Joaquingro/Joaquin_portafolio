@@ -77,10 +77,10 @@
 
 @media (max-width: 391px) {
   .circularMenu{
-    height: 20em;
-    width: 20em;
-    right: -15%;
-    top: -10%;
+    height: 22em;
+    width: 22em;
+    right: -14%;
+    top: -5%;
   }
 
   .container{
@@ -96,16 +96,16 @@
 
   .containerList{
     top: 27%;
-    left: 25%;
+    left: 20%;
   }
 }
-@media (min-width: 391px) and (max-width: 768px) {
+@media (min-width: 391px) and (max-width: 414px) {
   /* Estilos para pantallas con ancho máximo de 768px */
   .circularMenu{
     height: 25em;
     width: 25em;
     right: -15%;
-    top: -10%;
+    top: -8%;
   }
 
   .container{
@@ -124,7 +124,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 415px) and (max-width: 992px) {
   /* Estilos para pantallas con ancho entre 768px y 992px */
   .circularMenu{
     height: 28em;
@@ -144,14 +144,15 @@
   }
 
   .containerList{
-    top: 32%;
+    top: 34%;
     left: 20%;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 993px) and (max-width: 1140px) {
   /* Estilos para pantallas con ancho mínimo de 992px */
   .circularMenu{
-    right: -30%;
+    right: -50%;
+    top: -70%;
   }
 }
