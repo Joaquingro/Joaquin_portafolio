@@ -100,6 +100,12 @@
 
 
 @media (max-width: 410px) {
+    .container{
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        justify-content: flex-start;
+    }
     .title{
         width: fit-content;
     }
@@ -143,6 +149,12 @@
 }
 @media (min-width: 411px) and (max-width: 463px) {
   /* Estilos para pantallas con ancho máximo de 768px */
+  .container{
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: flex-start;
+}
   .title{
     width: fit-content;
 }
@@ -189,7 +201,12 @@
 @media (min-width: 464px) and (max-width: 530px) {
   /* Estilos para pantallas con ancho entre 768px y 992px */
  
-  
+  .container{
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: flex-start;
+}
   .title{
     width: auto;
 }
@@ -230,6 +247,12 @@
 @media (min-width: 531px) and (max-width: 1000px) {
     /* Estilos para pantallas con ancho entre 768px y 992px */
    
+    .container{
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        justify-content: flex-start;
+    }
     
     .title{
       width: auto;
