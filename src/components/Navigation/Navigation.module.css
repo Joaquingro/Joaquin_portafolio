@@ -75,18 +75,17 @@
 
 
 
+
 @media (max-width: 391px) {
   .circularMenu{
-    height: 22em;
-    width: 22em;
-    right: -14%;
-    top: -5%;
+    height: 30em;
+    width: 30em;
+    right: -50%;
+    top: -15%;
   }
 
   .container{
-    height: 3em;
-    width: 3em;
-    top: 1%;
+    top: 4%;
     right: 1%;
   }
 
@@ -95,7 +94,7 @@
   }
 
   .containerList{
-    top: 27%;
+    top: 37%;
     left: 20%;
   }
 }
@@ -105,7 +104,7 @@
     height: 25em;
     width: 25em;
     right: -15%;
-    top: -8%;
+    top: -6%;
   }
 
   .container{
@@ -130,7 +129,7 @@
     height: 28em;
     width: 28em;
     right: -15%;
-    top: -10%;
+    top: -7%;
   }
 
   .container{
@@ -149,10 +148,10 @@
   }
 }
 
-@media (min-width: 993px) and (max-width: 1140px) {
+@media (min-width: 993px) and (max-width: 1015px) {
   /* Estilos para pantallas con ancho mínimo de 992px */
   .circularMenu{
     right: -50%;
-    top: -70%;
+    top: -55%;
   }
 }
