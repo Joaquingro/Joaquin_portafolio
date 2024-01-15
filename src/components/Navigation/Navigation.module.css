@@ -80,7 +80,7 @@
   .circularMenu{
     
     right: -50%;
-    top: -15%;
+    top: -25%;
   }
 
   .container{
@@ -93,16 +93,16 @@
   }
 
   .containerList{
-    top: 37%;
+    top: 50%;
     left: 20%;
   }
 }
-@media (min-width: 392px) and (max-width: 414px) {
-  /* Estilos para pantallas con ancho máximo de 768px */
+/* 
+@media (min-width: 392px) and (max-width: 465px) {
   .circularMenu{
     
     right: -50%;
-    top: -15%;
+    top: -25%;
   }
 
   .container{
@@ -115,17 +115,17 @@
   }
 
   .containerList{
-    top: 37%;
+    top: 50%;
     left: 20%;
   }
-}
+} */
 
-@media (min-width: 415px) and (max-width: 992px) {
+@media (min-width: 392px) and (max-width: 549px) {
   /* Estilos para pantallas con ancho entre 768px y 992px */
   .circularMenu{
     
-    right: -50%;
-    top: -15%;
+    right: -40%;
+    top: -25%;
   }
 
   .container{
@@ -138,15 +138,102 @@
   }
 
   .containerList{
-    top: 37%;
+    top: 50%;
     left: 20%;
   }
 }
 
-@media (min-width: 993px) and (max-width: 1015px) {
+@media (min-width: 550px) and (max-width: 610px) {
+  .circularMenu{
+    
+    right: -40%;
+    top: -30%;
+  }
+
+  .container{
+    top: 4%;
+    right: 1%;
+  }
+
+  .son a{
+    font-size: 2.5em;
+  }
+
+  .containerList{
+    top: 50%;
+    left: 20%;
+  }
+}
+
+@media (min-width: 611px) and (max-width: 700px) {
+  .circularMenu{
+    
+    right: -40%;
+    top: -30%;
+  }
+
+  .container{
+    top: 4%;
+    right: 1%;
+  }
+
+  .son a{
+    font-size: 2.6em;
+  }
+
+  .containerList{
+    top: 50%;
+    left: 20%;
+  }
+}
+@media (min-width: 701px) and (max-width: 790px) {
+  .circularMenu{
+    
+    right: -40%;
+    top: -40%;
+  }
+
+  .container{
+    top: 4%;
+    right: 1%;
+  }
+
+  .son a{
+    font-size: 2.2em;
+  }
+
+  .containerList{
+    top: 50%;
+    left: 20%;
+  }
+}
+
+@media (min-width: 791px) and (max-width: 950px) {
   /* Estilos para pantallas con ancho mínimo de 992px */
   .circularMenu{
     right: -50%;
-    top: -55%;
+    top: -45%;
   }
 }
+
+@media (min-width: 951px) and (max-width: 1050px) {
+  .circularMenu{
+    right: -50%;
+    top: -50%;
+  }
+}
+
+@media (min-width: 1051px) and (max-width: 1300px) {
+  .circularMenu{
+    right: -40%;
+    top: -50%;
+  }
+}
+
+@media (min-width: 1301px) and (max-width: 1600px) {
+  .circularMenu{
+    right: -34%;
+    top: -50%;
+  }
+}
+
