@@ -99,7 +99,7 @@
 
 
 
-@media (max-width: 396px) {
+@media (max-width: 400px) {
     .title{
         width: fit-content;
     }
@@ -141,7 +141,7 @@
 
   
 }
-@media (min-width: 397px) and (max-width: 432px) {
+@media (min-width: 401px) and (max-width: 432px) {
   /* Estilos para pantallas con ancho máximo de 768px */
   .title{
     width: fit-content;
@@ -201,7 +201,7 @@
 }
 
 .imgProfile img{
-    flex-grow: 1;
+    width: 24em;
 }
 
 .baby{
