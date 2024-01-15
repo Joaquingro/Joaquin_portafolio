@@ -194,55 +194,70 @@
 }
 
 
-
-
-
-@media (max-width: 414px){
-    .son{
-        margin-left: 120px;
-        width: 150px;
-        height: 80px;
-        font-size: 12px;
+@media (max-width: 414px) {
+    .title2 h2{
+        left: 40%;
+        top: -30%;
+        font-size: 40px;
+        width: max-content;
     }
-    .broSon{
+
+    .broSon img{
         display: none;
     }
-    .title{
-        margin-top: 50px;
-        margin-left: 20px;
-        font-size: 10px;
-    }
-    .formContainer input{
-        width: 150px;
-    }
-    .formMessage{
-        width: 340px;
-        height: 100px;
-        margin-left: 20px;
-    }
-    .send{
-        margin-left: 150px;
-        margin-bottom: 50px;
-    }
-    .formContainer{
-        margin-left: 20px; 
-        margin-left: 0;
-        padding-left: 7px;
-    }
+    
     .formFather{
-        margin-left: 10px;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 3em;
+    }
+    
+   .sonContact{
+    padding: 10px;
+   }
+
+}
+
+
+@media (min-width: 391px) and (max-width: 768px) {
+  /* Estilos para pantallas con ancho máximo de 768px */
+  .title2 h2{
+    left: 40%;
+    top: -30%;
+    font-size: 40px;
+    width: max-content;
+}
+
+.broSon img{
+    display: none;
+}
+
+.formFather{
+    flex-direction: column;
+    width: 80%;
+    margin-left: 3em;
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Estilos para pantallas con ancho entre 768px y 992px */
+  .title2 h2{
+    left: 40%;
+    top: -30%;
+    font-size: 40px;
+    width: max-content;
+}
+
+
+}
+
+@media (min-width: 1181px) and (max-width: 1517px) {
+  /* Estilos para pantallas con ancho mínimo de 992px */
+    .broSon img{
+        left: 5%;
     }
 }
 
 
-@media (max-width: 379px){
-    .son{
-        margin-left: 95px;
-    }
-    .formMessage{
-        margin-left: 10px;
-    }
-    .send{
-        margin-left: 130px;
-    }
-}

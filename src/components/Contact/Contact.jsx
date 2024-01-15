@@ -105,7 +105,7 @@ export function Contact({id}) {
             fullWidth
             style={{
                 backgroundColor: "white",
-                borderRadius: "5px"
+                borderRadius: "5px",
 
             }}
             error={!!errors.name}
