@@ -247,12 +247,21 @@
     .container{
         height: 100%;
     }
+
+    .title h2{
+        left: 35%;
+        top: -30%;
+        font-size: 40px;
+        width: max-content;
+    }
     .son h1{
         font-size: 28px;
     }
 
     .containerSon{
         flex-wrap: wrap;
+        margin-top: -1em;
+        margin-bottom: 2em;
     }
     .son1{
         width: 250px;
@@ -288,3 +297,61 @@
         font-size: 13px;
     }
 }
+
+@media (min-width: 415px) and (max-width: 810px) {
+  /* Estilos para pantallas con ancho máximo de 768px */
+
+  .container{
+    height: 100%;
+}
+
+.title h2{
+    left: 35%;
+    top: -30%;
+    font-size: 40px;
+    width: max-content;
+}
+.son h1{
+    font-size: 28px;
+}
+
+.containerSon{
+    flex-wrap: wrap;
+    margin-top: -1em;
+    margin-bottom: 2em;
+}
+.son1{
+    width: 210px;
+    height: 125px;
+}
+
+.son2{
+    width: 210px;
+    height: 125px;
+}
+
+.son3{
+    width: 210px;
+    height: 125px;
+}
+
+.son4{
+    width: 210px;
+    height: 125px;
+}
+
+
+.sonp:hover{
+    width: 210px;
+    height: 125px;
+}
+.sonp p{
+    font-size: 15px;
+    margin-top: 17px;
+}
+.sonp a{
+    padding: 2px;
+    font-size: 13px;
+}
+}
+
