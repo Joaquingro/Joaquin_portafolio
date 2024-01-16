@@ -6,7 +6,7 @@
     width: 4em;
     z-index: 9999;
     position: fixed;
-    top: 5%;
+    top: 1%;
     right: 1%;
     background-color: rgb(202, 131, 0);
     border-radius: 10em;
@@ -16,10 +16,16 @@
 
 .containerList{
  position: absolute;
- left: 15%;
- bottom: 15%;
+ top: 13%;
+ right: 22%;
  height: max-content;
 
+}
+
+
+.drawerPaper {
+  z-index: 900; /* Ajusta según sea necesario */
+  overflow-x: hidden;
 }
 
 .son a{
@@ -43,17 +49,20 @@
 .circularMenu {
   display: flex;
   justify-content: center;
-  height: 60em;
-  width: 60em;
+  height: 55vmin; /* Cambiado a vmin para ser relativo al tamaño mínimo de la vista */
+  width: 55vmin; /* Cambiado a vmin para ser relativo al tamaño mínimo de la vista */
   background-color: rgba(202, 131, 0);
   position: fixed;
-  top: -55%;
-  right: -28%;
-  border-radius: 40%;
+  top: 0%;
+  right: 0%;
   overflow: hidden;
+  border-bottom-left-radius: 100%;
   align-items: center;
   
+
+    
 }
+
 
 
 .circularMenu List {
@@ -73,11 +82,32 @@
   
 }
 
-@media (max-width: 399px){
+@media (max-width: 405px){
+  .circularMenu{
+    width: 75vmin;
+    height: 75vmin;
+   
+  }
+
+  .container{
+    height: 2em;
+    width: 2em;
+  }
+
+  .son a{
+    font-size: 1.2em;
+  }
+
+  .containerList{
+    top: 1%;
+  }
+}
+
+@media (min-width: 406px) and (max-width: 500px){
   .circularMenu{
     
-    right: -180%;
-    top: -65%;
+    width: 75vmin;
+    height: 75vmin;
   }
 
   .container{
@@ -88,92 +118,21 @@
   }
 
   .son a{
-    font-size: 1.1em;
+    font-size: 1.3em;
   }
 
   .containerList{
-    top: 62%;
-    left: 10%;
-  }
-}
-
-@media (min-width: 400px) and (max-width: 439px){
-  .circularMenu{
-    
-    right: -155%;
-    top: -70%;
-  }
-
-  .container{
-    top: 1%;
-    right: 1%;
-    height: 2em;
-    width: 2em;
-  }
-
-  .son a{
-    font-size: 1.1em;
-  }
-
-  .containerList{
-    top: 64%;
-    left: 15%;
-  }
-}
-
-@media (min-width: 440px) and (max-width: 491px){
-  .circularMenu{
-    
-    right: -140%;
-    top: -70%;
-  }
-
-  .container{
-    top: 1%;
-    right: 1%;
-    height: 2em;
-    width: 2em;
-  }
-
-  .son a{
-    font-size: 1.1em;
-  }
-
-  .containerList{
-    top: 64%;
-    left: 15%;
-  }
-}
-
-@media (min-width: 492px) and (max-width: 549px) {
-  .circularMenu{
-    
-    right: -120%;
-    top: -70%;
-  }
-
-  .container{
-    top: 1%;
-    right: 1%;
-  }
-
-  .son a{
-    font-size: 1.1em;
-  }
-
-  .containerList{
-    top: 64%;
-    left: 15%;
+    left: 35%;
+    top: 3%;
   }
 }
 
 
-@media (min-width: 550px) and (max-width: 619px) {
-  /* Estilos para pantallas con ancho entre 768px y 992px */
+@media (min-width: 501px) and (max-width: 610px) {
   .circularMenu{
     
-    right: -95%;
-    top: -70%;
+    width: 60vmin;
+    height: 60vmin;
   }
 
   .container{
@@ -186,122 +145,55 @@
   }
 
   .containerList{
-    top: 65%;
-    left: 20%;
+    top: 3%;
   }
 }
 
-@media (min-width: 620px) and (max-width: 650px) {
+@media (min-width: 611px) and (max-width: 700px) {
+  /* Estilos para pantallas con ancho mínimo de 992px */
   .circularMenu{
-    
-    right: -85%;
-    top: -60%;
+    width: 50vmin;
+    height: 50vmin;
+  }
+
+  .son a{
+    font-size: 1.3em;
   }
 
   .container{
     top: 1%;
     right: 1%;
+  }
+  .containerList{
+    top: 4%;
+    
+  }
+}
+
+@media (min-width: 701px) and (max-width: 930px) {
+  .circularMenu{
+    width: 50vmin;
+    height: 50vmin;
   }
 
   .son a{
     font-size: 1.4em;
   }
-
-  .containerList{
-    top: 58%;
-    left: 15%;
-  }
-}
-
-@media (min-width: 651px) and (max-width: 770px) {
-  .circularMenu{
-    
-    right: -80%;
-    top: -65%;
-  }
-
-  .container{
-    top: 1%;
-    right: 1%;
-  }
-
-  .son a{
-    font-size: 1.5em;
-  }
-
-  .containerList{
-    top: 62%;
-    left: 15%;
-  }
-}
-@media (min-width: 701px) and (max-width: 790px) {
-  .circularMenu{
-    
-    right: -75%;
-    top: -65%;
-  }
-
-  .container{
-    top: 1%;
-    right: 1%;
-  }
-
-  .son a{
-    font-size: 1.6em;
-  }
-
-  .containerList{
-    top: 62%;
-    left: 15%;
-  }
-}
-
-@media (min-width: 791px) and (max-width: 800px) {
-  /* Estilos para pantallas con ancho mínimo de 992px */
-  .circularMenu{
-    right: -70%;
-    top: -65%;
-  }
-
-  .son a{
-    font-size: 1.6em;
-  }
-
-  .container{
-    top: 1%;
-    right: 1%;
-  }
-  .containerList{
-    top: 62%;
-    left: 15%;
-  }
-}
-
-@media (min-width: 801px) and (max-width: 930px) {
-  .circularMenu{
-    right: -60%;
-    top: -65%;
-  }
-
-  .son a{
-    font-size: 1.6em;
-  }
   .container{
     top: 1%;
     right: 1%;
   }
 
   .containerList{
-    top: 62%;
-    left: 15%;
+    top: 5%;
   }
 }
 
 @media (min-width: 931px) and (max-width: 1000px) {
  
   .circularMenu{
-    right: -56%;
-    top: -65%;
+    width: 50vmin;
+    height: 50vmin;
   }
 
   .son a{
@@ -313,15 +205,14 @@
     right: 1%;
   }
   .containerList{
-    top: 62%;
-    left: 15%;
+    top: 5%
   }
 }
 
-@media (min-width: 1001px) and (max-width: 1078px) {
+@media (min-width: 932px) and (max-width: 1200px) {
   .circularMenu{
-    right: -52%;
-    top: -65%;
+    width: 50vmin;
+    height: 50vmin;
   }
 
   .son a{
@@ -333,50 +224,9 @@
     right: 1%;
   }
   .containerList{
-    top: 62%;
-    left: 15%;
+    top: 5%
   }
 }
 
 
-@media (min-width: 1079px) and (max-width: 1200px) {
-  .circularMenu{
-    right: -45%;
-    top: -65%;
-  }
-
-  .son a{
-    font-size: 1.6em;
-  }
-
-  .container{
-    top: 1%;
-    right: 1%;
-  }
-
-  .containerList{
-    top: 62%;
-    left: 15%;
-  }
-}
-
-@media (min-width: 1201px) and (max-width: 1600px) {
-  .circularMenu{
-    right: -40%;
-    top: -65%;
-  }
-
-  .son a{
-    font-size: 1.6em;
-  }
-
-  .container{
-    top: 1%;
-    right: 1%;
-  }
-  .containerList{
-    top: 62%;
-    left: 14%;
-  }
-}
 

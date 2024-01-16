@@ -15,12 +15,12 @@ export function Navigation() {
         setTimeout(() => {
             setOpen(!open);
             
-        }, 200);
-        setAnimateClass(open ? 'animate__rotateOutUpRight' : 'animate__rotateInDownRight');
+        }, 300);
+        setAnimateClass(open ? 'animate__fadeOutTopRight' : 'animate__fadeInTopRight');
     };
 
     const handleLinkClick = () => {
-        setAnimateClass('animate__rotateOutUpRight');
+        setAnimateClass('animate__fadeOutTopRight');
         setTimeout(() => {
             setOpen(false);
             setAnimateClass('');
@@ -54,9 +54,12 @@ export function Navigation() {
             <Drawer anchor="left" 
             open={open}
             onClose={toggleDrawer}
+            classes={{
+                paper: style.drawerPaper,
+              }}
             
             >
-            <div className={`animate__animated ${animateClass} ${style.circularMenu}`}>
+            <div className={`animate__animated ${animateClass} ${style.circularMenu}` }>
             <div className={style.containerList} >
                 <div className={style.son} onClick={handleLinkClick} >
                     <AnchorLink href="#home">Inicio</AnchorLink>
