@@ -100,6 +100,7 @@
 
   .containerList{
     top: 1%;
+    right: 15%;
   }
 }
 
@@ -122,7 +123,6 @@
   }
 
   .containerList{
-    left: 35%;
     top: 3%;
   }
 }
