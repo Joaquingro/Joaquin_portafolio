@@ -8,8 +8,9 @@
 
 .foot{
     display: flex;
-    justify-content: center;    
-
+    justify-content: center;  
+    align-items: center;  
+    align-content: center;
 }
 
 .father{
@@ -53,7 +54,8 @@
     color: white;
 }
 .icon{
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     border: 1px solid white;
     padding: 10px;
     border-radius: 5em;

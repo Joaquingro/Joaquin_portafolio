@@ -81,10 +81,10 @@
   }
 
   .container{
-    top: 4%;
+    top: 1%;
     right: 1%;
-    height: 3em;
-    width: 3em;
+    height: 2em;
+    width: 2em;
   }
 
   .son a{
@@ -92,8 +92,8 @@
   }
 
   .containerList{
-    top: 67%;
-    left: 14%;
+    top: 62%;
+    left: 10%;
   }
 }
 
@@ -105,7 +105,7 @@
   }
 
   .container{
-    top: 4%;
+    top: 1%;
     right: 1%;
     height: 2em;
     width: 2em;
@@ -129,7 +129,7 @@
   }
 
   .container{
-    top: 4%;
+    top: 1%;
     right: 1%;
     height: 2em;
     width: 2em;
@@ -153,7 +153,7 @@
   }
 
   .container{
-    top: 4%;
+    top: 1%;
     right: 1%;
   }
 
@@ -177,7 +177,7 @@
   }
 
   .container{
-    top: 4%;
+    top: 1%;
     right: 1%;
   }
 
@@ -195,11 +195,11 @@
   .circularMenu{
     
     right: -85%;
-    top: -65%;
+    top: -60%;
   }
 
   .container{
-    top: 4%;
+    top: 1%;
     right: 1%;
   }
 
@@ -217,11 +217,11 @@
   .circularMenu{
     
     right: -80%;
-    top: -70%;
+    top: -65%;
   }
 
   .container{
-    top: 4%;
+    top: 1%;
     right: 1%;
   }
 
@@ -238,11 +238,11 @@
   .circularMenu{
     
     right: -75%;
-    top: -70%;
+    top: -65%;
   }
 
   .container{
-    top: 4%;
+    top: 1%;
     right: 1%;
   }
 
@@ -260,13 +260,17 @@
   /* Estilos para pantallas con ancho mínimo de 992px */
   .circularMenu{
     right: -70%;
-    top: -70%;
+    top: -65%;
   }
 
   .son a{
     font-size: 1.6em;
   }
 
+  .container{
+    top: 1%;
+    right: 1%;
+  }
   .containerList{
     top: 62%;
     left: 15%;
@@ -276,11 +280,15 @@
 @media (min-width: 801px) and (max-width: 930px) {
   .circularMenu{
     right: -60%;
-    top: -70%;
+    top: -65%;
   }
 
   .son a{
     font-size: 1.6em;
+  }
+  .container{
+    top: 1%;
+    right: 1%;
   }
 
   .containerList{
@@ -293,13 +301,17 @@
  
   .circularMenu{
     right: -56%;
-    top: -70%;
+    top: -65%;
   }
 
   .son a{
     font-size: 1.6em;
   }
 
+  .container{
+    top: 1%;
+    right: 1%;
+  }
   .containerList{
     top: 62%;
     left: 15%;
@@ -309,13 +321,17 @@
 @media (min-width: 1001px) and (max-width: 1078px) {
   .circularMenu{
     right: -52%;
-    top: -70%;
+    top: -65%;
   }
 
   .son a{
     font-size: 1.6em;
   }
 
+  .container{
+    top: 1%;
+    right: 1%;
+  }
   .containerList{
     top: 62%;
     left: 15%;
@@ -326,11 +342,16 @@
 @media (min-width: 1079px) and (max-width: 1200px) {
   .circularMenu{
     right: -45%;
-    top: -70%;
+    top: -65%;
   }
 
   .son a{
     font-size: 1.6em;
+  }
+
+  .container{
+    top: 1%;
+    right: 1%;
   }
 
   .containerList{
@@ -342,16 +363,20 @@
 @media (min-width: 1201px) and (max-width: 1600px) {
   .circularMenu{
     right: -40%;
-    top: -70%;
+    top: -65%;
   }
 
   .son a{
     font-size: 1.6em;
   }
 
+  .container{
+    top: 1%;
+    right: 1%;
+  }
   .containerList{
     top: 62%;
-    left: 15%;
+    left: 14%;
   }
 }
 
