@@ -1,9 +1,11 @@
 .App{
     background-color: rgb(0, 0, 0);
-    
+    position: relative;
+    width: 100vw;
 }
 
 html,
 body{
     overflow-x: hidden;
+
 }

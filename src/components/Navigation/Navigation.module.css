@@ -1,3 +1,8 @@
+
+.navigationContainer {
+  position: relative;
+}
+
 .container{
     display: flex;
     flex-direction: row;
@@ -23,10 +28,7 @@
 }
 
 
-.drawerPaper {
-  z-index: 900; /* Ajusta según sea necesario */
-  overflow-x: hidden;
-}
+
 
 .son a{
   color: rgb(255, 255, 255);
@@ -47,17 +49,13 @@
 }
 
 .circularMenu {
-  display: flex;
-  justify-content: center;
   height: 55vmin; /* Cambiado a vmin para ser relativo al tamaño mínimo de la vista */
   width: 55vmin; /* Cambiado a vmin para ser relativo al tamaño mínimo de la vista */
   background-color: rgba(202, 131, 0);
   position: fixed;
   top: 0%;
   right: 0%;
-  overflow: hidden;
   border-bottom-left-radius: 100%;
-  align-items: center;
   
 
     

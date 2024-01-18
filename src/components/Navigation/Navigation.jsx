@@ -27,6 +27,9 @@ export function Navigation() {
         }, 500);
     };
     return (
+        <div className={style.navigationContainer}>
+
+        
         <div className={style.container}>
             <IconButton 
                 onClick={toggleDrawer} 
@@ -54,9 +57,9 @@ export function Navigation() {
             <Drawer anchor="left" 
             open={open}
             onClose={toggleDrawer}
-            classes={{
-                paper: style.drawerPaper,
-              }}
+            style={{
+                                         
+            }}
             
             >
             <div className={`animate__animated ${animateClass} ${style.circularMenu}` }>
@@ -81,6 +84,7 @@ export function Navigation() {
             </div>
                 </div>
             </Drawer>
+        </div>
         </div>
     );
 }
