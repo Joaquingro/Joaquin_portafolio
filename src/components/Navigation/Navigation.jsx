@@ -15,7 +15,7 @@ export function Navigation() {
         setTimeout(() => {
             setOpen(!open);
             
-        }, 300);
+        }, 250);
         setAnimateClass(open ? 'animate__fadeOutTopRight' : 'animate__fadeInTopRight');
     };
 
