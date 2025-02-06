@@ -22,10 +22,6 @@
     margin-top: 5em;
   }
   
-  .title h1{
-    border-bottom: 1px solid rgb(202, 131, 0);
-    
-  }
   
   .title h2{
     position: absolute;
@@ -39,6 +35,7 @@
   .title h1{
     font-size: 35px;
     color: white;
+    border-bottom: 1px solid rgb(202, 131, 0);
   }
   
 
@@ -153,10 +150,22 @@
     border-radius: 20px;
     position: relative;
     margin-top: 20px;
-    
-    
 }
 
+.son5{
+    background-image: url("../../assets/logo.svg");
+    background-size: contain;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.son5 a,
 .son4 a{
     text-decoration: none;
     background-color: white;
@@ -167,7 +176,7 @@
     display: none;
    
 }
-
+.son5:hover a,
 .son4:hover a {
     display: block;
     width: 100px;
@@ -175,16 +184,23 @@
     text-align: center;
     
   }
+  
+.son5:hover a:hover,
 .son4:hover a:hover{
     background-color: rgb(202, 131, 0);
     color: white;
 }
+
+.son5 p,
 .son4 p{
     display: none;
 }
+
+.son5:hover p,
 .son4:hover p{
     display: block;
 }
+
 .sonp{
     display: flex;
     align-items: center;
@@ -277,7 +293,7 @@
         width: 250px;
         height: 125px;
     }
-    
+    .son5,
     .son4{
         width: 250px;
         height: 125px;
@@ -335,6 +351,7 @@
     height: 125px;
 }
 
+.son5,
 .son4{
     width: 210px;
     height: 125px;
