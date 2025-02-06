@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 export function School(props) {
     const {id} = props;
 
-    const cvUrl = 'https://drive.google.com/file/d/1rkLCGkVir341REtsMUO6IlWi8DcrkCd2/view'; 
+    const cvUrl = 'https://drive.google.com/file/d/11z4YRAoEufwEXxHSmlfhkGKtWU4hjJrf/view?usp=sharing'; 
 
     const handleDownload = () => {
       
